@@ -1,7 +1,7 @@
 #!/bin/bash
-&>/tmp/wireguard_boot_script.log
+exec &>/tmp/wireguard_boot_script.log
 # Run Fail Safe Command
-set -euxo pipefail
+# set -euxo pipefail
 
 ###############################
 ### Wireguard Install & Run ###
