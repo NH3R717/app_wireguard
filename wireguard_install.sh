@@ -1,5 +1,5 @@
 #!/bin/bash
-exec &>/tmp/wireguard_boot_script.log
+&>/tmp/wireguard_boot_script.log
 # Run Fail Safe Command
 set -euxo pipefail
 
