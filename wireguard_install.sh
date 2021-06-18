@@ -7,7 +7,8 @@
 ### Wireguard Install & Run ###
 ###############################
 
-export CONTAINER_DIR="${HOME_DIR}/Docker/Wireguard"
+# ENV
+export CONTAINER_DIR="${HOME}/Docker/Wireguard"
 
 echo ${CONTAINER_DIR}
 
