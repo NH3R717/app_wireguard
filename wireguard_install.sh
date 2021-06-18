@@ -9,8 +9,8 @@
 
 # ENV
 export CONTAINER_DIR="${HOME}/Docker/Wireguard"
-# export VULTR_IP=${VULTR_IP}
-# export WIREGUARD_PORT=${WIREGUARD_PORT}
+export VULTR_IP="${VULTR_IP}"
+export WIREGUARD_PORT="${WIREGUARD_PORT}"
 echo ${VULTR_IP}
 echo ${WIREGUARD_PORT}
 echo ${CONTAINER_DIR}
