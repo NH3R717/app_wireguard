@@ -9,11 +9,11 @@
 
 # ENV
 export CONTAINER_DIR="${HOME}/Docker/Wireguard"
-export ${VULTR_IP}
-export ${WIREGUARD_PORT}
-echo ${VULTR_IP}
-echo ${WIREGUARD_PORT}
-echo ${CONTAINER_DIR}
+# export ${VULTR_IP}
+# export ${WIREGUARD_PORT}
+# echo ${VULTR_IP}
+# echo ${WIREGUARD_PORT}
+# echo ${CONTAINER_DIR}
 
 # Open network port for VPN – firewall
 sudo ufw allow ${WIREGUARD_PORT}/udp
