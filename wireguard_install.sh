@@ -41,5 +41,5 @@ chown --recursive \
 ### Useful Commands & Notes here ###
 ###################################*
 
-#? ~ ~ Wait a moment ~ ~ (display's Client QR codes)
+#? ~ ~ Wait a moment ~ ~ (script below display's Client QR codes)
 #sudo docker exec -it wireguard /app/show-peer 1 3 5
