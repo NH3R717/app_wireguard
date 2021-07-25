@@ -1,14 +1,15 @@
 #!/bin/bash
 # exec &>/tmp/wireguard_boot_script.log
 # Run Fail Safe Command
-# set -euxo pipefail
+set -euxo pipefail
 
 ###############################
 ### Wireguard Install & Run ###
 ###############################
 
 # ENV
-export CONTAINER_DIR="${HOME}/Docker/Wireguard"
+export CONTAINER_DIR="${HOME_DIR}/Docker/Wireguard"
+echo "Created container dir ENV ${CONTAINER_DIR}"
 # export ${VULTR_IP}
 # export ${WIREGUARD_PORT}
 # echo ${VULTR_IP}
