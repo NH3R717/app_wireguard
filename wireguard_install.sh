@@ -3,10 +3,14 @@
 # Run Fail Safe Command
 set -euxo pipefail
 
+echo \
+'
+
 ###############################
 ### Wireguard Install & Run ###
 ###############################
 
+'
 # ENV
 export CONTAINER_DIR="${HOME_DIR}/Docker/Wireguard"
 echo "Created container dir ENV ${CONTAINER_DIR}"
