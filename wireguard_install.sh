@@ -24,7 +24,7 @@ echo "Created container dir ENV ${CONTAINER_DIR}"
 sudo ufw allow ${WIREGUARD_PORT}/udp
 
 ## Create dir for Docker container
-mkdir -p ${CONTAINER_DIR} && cd "${CONTAINER_DIR}"
+mkdir -pv ${CONTAINER_DIR} && cd "${CONTAINER_DIR}"
 
 # Add ENV for docker-compose.yml use
 echo "VULTR_IP=${VULTR_IP}" >> .env
